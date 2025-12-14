@@ -1,14 +1,14 @@
 name: First Workflow
  on:
    push:
-     brench:
+     branches:
        - main:
-job:
+jobs:
   example-job:
-    run-on: ubuntu-latest
-    stepes:
-      - name: print a welcome massege
-        run: echo "Welcome to my firsrt GitHub Actions Workflow!"
+    runs-on: ubuntu-latest
+    steps:
+      - name: print a welcome message
+        run: echo "Welcome to my first GitHub Actions Workflow!"
 
       - name: Checkout reository 
         uses: actions/checkout@v6.0.1 
