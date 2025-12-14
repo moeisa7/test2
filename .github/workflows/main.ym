@@ -1,14 +1,9 @@
-name: First Workflow
+# My First Repository
 
- on:
-   push:
-     branches:
-       - main
+This is my first GitHub repository.
 
-jobs:
-  example-job:
-    runs-on: unbuntu-latest
+## About
+I am learning how to use GitHub and version control.
 
-    steps:
-      - name: Print a welcom message
-        run: echo "Welcome t my first GitHub Actions Workflow!!"
+## Author
+me
