@@ -9,3 +9,8 @@ job:
     stepes:
       - name: print a welcome massege
         run: echo "Welcome to my firsrt GitHub Actions Workflow!"
+
+      - name: Checkout reository 
+        uses: actions/checkout@v6.0.1 
+      - name: List reopsitory files 
+        run: ls -la
